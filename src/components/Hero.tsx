@@ -9,19 +9,22 @@ const Hero = () => {
 
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with parallax effect */}
-      <motion.div
-        initial={{ scale: 1.1 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 1.5 }}
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&q=80')",
-        }}
-      >
+      {/* Video Background */}
+      <div className="absolute inset-0 z-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source
+            src="https://www.spacex.com/media/mission_reusability.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div className="absolute inset-0 bg-black/50" />
-      </motion.div>
+      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-4">

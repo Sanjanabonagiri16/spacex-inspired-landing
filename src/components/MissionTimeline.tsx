@@ -46,7 +46,7 @@ const MissionTimeline = () => {
           MISSION TIMELINE
         </motion.h2>
         
-        <div className="overflow-x-auto pb-8">
+        <div className="overflow-x-auto pb-8 snap-x snap-mandatory">
           <div className="flex space-x-6 min-w-max px-4">
             {missions.map((mission) => (
               <motion.div
@@ -54,9 +54,9 @@ const MissionTimeline = () => {
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                className="w-80"
+                className="w-80 snap-center"
               >
-                <Card className="bg-space-gray border-none overflow-hidden">
+                <Card className="bg-space-gray border-none overflow-hidden transform transition-transform duration-300 hover:scale-105">
                   <div className="relative h-48">
                     <img
                       src={mission.image}
