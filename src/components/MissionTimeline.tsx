@@ -34,6 +34,21 @@ const missions: Mission[] = [
 ];
 
 const MissionTimeline = () => {
+  const floatingAnimation = {
+    y: [0, -10, 0],
+    transition: {
+      duration: 4,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }
+  };
+
+  const playHoverSound = () => {
+    const audio = new Audio("/hover-whoosh.mp3");
+    audio.volume = 0.1;
+    audio.play();
+  };
+
   return (
     <section className="bg-space-dark py-20">
       <div className="container mx-auto px-4">
@@ -53,7 +68,8 @@ const MissionTimeline = () => {
                 key={mission.id}
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6 }}
+                animate={floatingAnimation}
+                onHoverStart={playHoverSound}
                 className="w-80 snap-center"
               >
                 <Card className="bg-space-gray border-none overflow-hidden transform transition-transform duration-300 hover:scale-105">

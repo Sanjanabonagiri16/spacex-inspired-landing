@@ -4,6 +4,7 @@ import MissionHighlight from "@/components/MissionHighlight";
 import MissionTimeline from "@/components/MissionTimeline";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
+import AstronautEasterEgg from "@/components/AstronautEasterEgg";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         </div>
         <MissionTimeline />
         <Footer />
+        <AstronautEasterEgg />
       </div>
     </SmoothScroll>
   );
