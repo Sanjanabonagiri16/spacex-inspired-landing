@@ -1,7 +1,4 @@
 
-markdown
-Copy
-Edit
 # 🚀 SpaceX Inspired Landing Page
 
 Welcome to the **SpaceX Inspired Landing Page**! 🌌 This project is a futuristic, space-themed landing page inspired by SpaceX’s innovation and technological advancements.
@@ -44,12 +41,10 @@ Follow these steps to set up and run the project locally:
 ```bash
 git clone <YOUR_GIT_URL>
 2️⃣ Navigate to the Project Directory
-
-bash
+```bash
 cd <YOUR_PROJECT_NAME>
 3️⃣ Install Dependencies
-
-bash
+```bash
 npm install
 4️⃣ Start the Development Server
 bash
