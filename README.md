@@ -38,32 +38,22 @@ This landing page is designed with a sleek, modern aesthetic, featuring smooth a
 Follow these steps to set up and run the project locally:
 
 1️⃣ **Clone the Repository**  
-```bash
-git clone <YOUR_GIT_URL>
+--git clone <YOUR_GIT_URL>
 2️⃣ Navigate to the Project Directory
-```bash
-cd <YOUR_PROJECT_NAME>
+--cd <YOUR_PROJECT_NAME>
 3️⃣ Install Dependencies
-```bash
-npm install
+--npm install
 4️⃣ Start the Development Server
-bash
-npm run dev
+--npm run dev
 This will launch the local development server with hot reloading.
-
 🚢 Deployment
 To deploy your project, follow these steps:
-
 1️⃣ Build the Project
-
-bash
-npm run build
+--npm run build
 2️⃣ Preview the Production Build
-
-bash
-npm run preview
+--npm run preview
 3️⃣ Deploy to a Hosting Platform
-Upload the generated dist folder to a hosting service like Netlify, Vercel, or GitHub Pages.
+--Upload the generated dist folder to a hosting service like Netlify, Vercel, or GitHub Pages.
 
 📸 Preview
 Check out the live demo (if available) or see the project in action locally!
@@ -75,9 +65,6 @@ We welcome contributions! If you’d like to improve the design or add features:
 2️⃣ Create a new branch (feature/your-feature).
 3️⃣ Commit your changes.
 4️⃣ Push to your branch and create a pull request.
-
-📜 License
-This project is open-source and available under the MIT License.
 
 🌠 Let’s build something extraordinary and take web design to the stars! 🚀✨
 
