@@ -4,6 +4,7 @@ import About from "@/components/About";
 import MissionHighlight from "@/components/MissionHighlight";
 import MissionTimeline from "@/components/MissionTimeline";
 import VehicleShowcase from "@/components/VehicleShowcase";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import AstronautEasterEgg from "@/components/AstronautEasterEgg";
@@ -21,6 +22,7 @@ const Index = () => {
         </div>
         <VehicleShowcase />
         <MissionTimeline />
+        <Contact />
         <Footer />
         <AstronautEasterEgg />
         <Chatbot />
