@@ -4,6 +4,8 @@ import About from "@/components/About";
 import MissionHighlight from "@/components/MissionHighlight";
 import MissionTimeline from "@/components/MissionTimeline";
 import VehicleShowcase from "@/components/VehicleShowcase";
+import HumanSpaceflight from "@/components/HumanSpaceflight";
+import Rideshare from "@/components/Rideshare";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -21,6 +23,8 @@ const Index = () => {
           <MissionHighlight />
         </div>
         <VehicleShowcase />
+        <HumanSpaceflight />
+        <Rideshare />
         <MissionTimeline />
         <Contact />
         <Footer />
