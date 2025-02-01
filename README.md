@@ -56,23 +56,36 @@ Follow these steps to set up and run the project locally:
 This will launch the local development server with hot reloading.
 
 🚢 Deployment
+
 To deploy your project, follow these steps:
+
 1️⃣ Build the Project
+
 --npm run build
+
 2️⃣ Preview the Production Build
+
 --npm run preview
+
 3️⃣ Deploy to a Hosting Platform
+
 --Upload the generated dist folder to a hosting service like Netlify, Vercel, or GitHub Pages.
 
+
 📸 Preview
+
 Check out the live demo (if available) or see the project in action locally!
+
 
 🤝 Contributing
 We welcome contributions! If you’d like to improve the design or add features:
 
 1️⃣ Fork the repository.
+
 2️⃣ Create a new branch (feature/your-feature).
+
 3️⃣ Commit your changes.
+
 4️⃣ Push to your branch and create a pull request.
 
 🌠 Let’s build something extraordinary and take web design to the stars! 🚀✨
