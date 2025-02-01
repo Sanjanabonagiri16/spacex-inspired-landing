@@ -38,14 +38,23 @@ This landing page is designed with a sleek, modern aesthetic, featuring smooth a
 Follow these steps to set up and run the project locally:
 
 1️⃣ **Clone the Repository**  
+
 --git clone <YOUR_GIT_URL>
+
 2️⃣ Navigate to the Project Directory
+
 --cd <YOUR_PROJECT_NAME>
+
 3️⃣ Install Dependencies
+
 --npm install
+
 4️⃣ Start the Development Server
+
 --npm run dev
+
 This will launch the local development server with hot reloading.
+
 🚢 Deployment
 To deploy your project, follow these steps:
 1️⃣ Build the Project
