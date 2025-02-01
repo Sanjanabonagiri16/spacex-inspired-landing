@@ -56,7 +56,7 @@ const MissionTimeline = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-white mb-12 text-center"
+          className="text-3xl md:text-4xl font-bold text-white mb-12 text-center tracking-wider"
         >
           MISSION TIMELINE
         </motion.h2>
@@ -72,20 +72,22 @@ const MissionTimeline = () => {
                 onHoverStart={playHoverSound}
                 className="w-80 snap-center"
               >
-                <Card className="bg-space-gray border-none overflow-hidden transform transition-transform duration-300 hover:scale-105">
-                  <div className="relative h-48">
+                <Card className="bg-space-gray border-none overflow-hidden group">
+                  <div className="relative h-48 overflow-hidden">
                     <img
                       src={mission.image}
                       alt={mission.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                     />
+                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors duration-300" />
                   </div>
                   <CardContent className="p-6">
                     <motion.div
                       whileHover={{ scale: 1.02 }}
                       transition={{ duration: 0.2 }}
+                      className="space-y-2"
                     >
-                      <h3 className="text-xl font-bold text-white mb-2">{mission.title}</h3>
+                      <h3 className="text-xl font-bold text-white mb-2 tracking-wide">{mission.title}</h3>
                       <p className="text-space-light text-sm mb-2">{mission.date}</p>
                       <p className="text-gray-300">{mission.description}</p>
                     </motion.div>
